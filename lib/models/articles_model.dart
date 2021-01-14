@@ -1,6 +1,5 @@
-import './article_model.dart';
 class Articles{
-  final List<Article> articles;
+  final List<dynamic> articles;
 
   Articles({this.articles});
   factory Articles.fromJson(Map<String,dynamic> jsonData){
